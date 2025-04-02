@@ -34,7 +34,7 @@ public class CreateProduct extends BaseClass{
 	
 	//@Parameters("browser")
 	@Test()
-	public void createProductTest() throws IOException, InterruptedException {
+	public void addProductTest() throws IOException, InterruptedException {
 		/*PropertiesFileUtility propUtil=new PropertiesFileUtility();
 		String BROWSER = propUtil.readDataFromPropFile("browser");
 		//String BROWSER=browser;
