@@ -45,7 +45,8 @@ public class BaseClass {
 	public void beforeClass() throws IOException
 	{
 			System.out.println("Launch the browser");
-			String BROWSER = pro.readDataFromPropFile("browser");
+			//String BROWSER = pro.readDataFromPropFile("browser");
+			String BROWSER =System.getProperty("browser");
 			ChromeOptions Coption=new ChromeOptions();
 			FirefoxOptions Foption=new FirefoxOptions();
 			EdgeOptions Eoption=new EdgeOptions();

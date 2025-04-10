@@ -58,7 +58,7 @@ public class LoginTest extends BaseClass{
 		System.out.println(UN);
 		System.out.println(PWD);*/
 		
-		String expectedURL="http://49.249.28.218:8098/dashboar";
+		String expectedURL="http://49.249.28.218:8098/dashboard";
 		//Launching the browser
 		//WebDriver driver=null;
 		/*ChromeOptions Coption=new ChromeOptions();
