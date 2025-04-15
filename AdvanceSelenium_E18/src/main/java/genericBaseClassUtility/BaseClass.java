@@ -34,7 +34,7 @@ public class BaseClass {
 	public void beforeSuite() throws SQLException
 	{
 			System.out.println("Established database connection");
-			dbUtil.getDBConnection("jdbc:mysql://localhost:3306/Ninja_E18", "root", "081717");
+			dbUtil.getDBConnection("jdbc:mysql://localhost:3306/Ninza_E18", "root", "081717");
 	}
 	@BeforeTest
 	public void beforeTest()

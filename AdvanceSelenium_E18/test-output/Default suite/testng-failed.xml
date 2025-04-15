@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ProductTest.CreateProductTest">
+      <class name="CreateTest.CreateContactTest">
         <methods>
           <include name="beforeSuite"/>
           <include name="afterSuite"/>
           <include name="beforeTest"/>
+          <include name="createContactWithCampaignTest"/>
           <include name="afterTest"/>
           <include name="afterClass"/>
           <include name="beforeMethod"/>
-          <include name="addProductTest"/>
           <include name="beforeClass"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- ProductTest.CreateProductTest -->
+      </class> <!-- CreateTest.CreateContactTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
