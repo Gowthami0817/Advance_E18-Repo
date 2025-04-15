@@ -55,18 +55,18 @@ public class BaseClass {
 			Eoption.addArguments("--headless");
 			if(BROWSER.equalsIgnoreCase("chrome"))
 			{
-				driver=new ChromeDriver(Coption);
+				driver=new ChromeDriver();
 			}
 			else if(BROWSER.equalsIgnoreCase("Firefox"))
 			{
-				driver=new FirefoxDriver(Foption);
+				driver=new FirefoxDriver();
 			}
 			else if(BROWSER.equalsIgnoreCase("Edge")) {
-				driver=new EdgeDriver(Eoption);
+				driver=new EdgeDriver();
 			}
 			else
 			{
-				driver=new ChromeDriver(Coption);
+				driver=new ChromeDriver();
 			}
 			sdriver=driver;
 	}
