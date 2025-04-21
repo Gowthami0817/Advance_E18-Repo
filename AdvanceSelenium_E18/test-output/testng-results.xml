@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-15T22:38:30 IST" name="Default suite" finished-at="2025-04-15T22:38:59 IST" duration-ms="28313">
+  <suite started-at="2025-04-21T19:21:12 IST" name="Default suite" finished-at="2025-04-21T19:21:38 IST" duration-ms="26310">
     <groups>
     </groups>
-    <test started-at="2025-04-15T22:38:30 IST" name="Default test" finished-at="2025-04-15T22:38:59 IST" duration-ms="28313">
-      <class name="CampaignTest.CreateCampaignTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:CampaignTest.CreateCampaignTest@72e5a8e]" started-at="2025-04-15T22:38:30 IST" name="beforeSuite" finished-at="2025-04-15T22:38:30 IST" duration-ms="375" status="PASS">
+    <test started-at="2025-04-21T19:21:12 IST" name="Default test" finished-at="2025-04-21T19:21:38 IST" duration-ms="26310">
+      <class name="ProductTest.CreateProductTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:ProductTest.CreateProductTest@2d710f1a]" started-at="2025-04-21T19:21:12 IST" name="beforeSuite" finished-at="2025-04-21T19:21:12 IST" duration-ms="420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:CampaignTest.CreateCampaignTest@72e5a8e]" started-at="2025-04-15T22:38:30 IST" name="beforeTest" finished-at="2025-04-15T22:38:30 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:ProductTest.CreateProductTest@2d710f1a]" started-at="2025-04-21T19:21:12 IST" name="beforeTest" finished-at="2025-04-21T19:21:12 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:CampaignTest.CreateCampaignTest@72e5a8e]" started-at="2025-04-15T22:38:30 IST" name="beforeClass" finished-at="2025-04-15T22:38:32 IST" duration-ms="1442" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ProductTest.CreateProductTest@2d710f1a]" started-at="2025-04-21T19:21:12 IST" name="beforeClass" finished-at="2025-04-21T19:21:14 IST" duration-ms="1635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:CampaignTest.CreateCampaignTest@72e5a8e]" started-at="2025-04-15T22:38:32 IST" name="beforeMethod" finished-at="2025-04-15T22:38:33 IST" duration-ms="905" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ProductTest.CreateProductTest@2d710f1a]" started-at="2025-04-21T19:21:14 IST" name="beforeMethod" finished-at="2025-04-21T19:21:15 IST" duration-ms="1359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="createCampaignTest()[pri:0, instance:CampaignTest.CreateCampaignTest@72e5a8e]" started-at="2025-04-15T22:38:33 IST" name="createCampaignTest" finished-at="2025-04-15T22:38:59 IST" duration-ms="25701" status="FAIL">
+        <test-method signature="addProductTest()[pri:0, instance:ProductTest.CreateProductTest@2d710f1a]" started-at="2025-04-21T19:21:15 IST" name="addProductTest" finished-at="2025-04-21T19:21:38 IST" duration-ms="22898" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='campaignName']"}
-  (Session info: chrome=135.0.7049.85)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Add Product']"}
+  (Session info: chrome=135.0.7049.96)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f77b5aa9bf518b29bfdd8d2789f9c6b8, findElement {value=campaignName, using=name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\91830\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61474}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61474/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f77b5aa9bf518b29bfdd8d2789f9c6b8]]>
+Command: [3420b19a8f8782c8ad4f9eee1686e73d, findElement {value=//span[text()='Add Product'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\91830\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61386}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61386/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3420b19a8f8782c8ad4f9eee1686e73d]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='campaignName']"}
-  (Session info: chrome=135.0.7049.85)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Add Product']"}
+  (Session info: chrome=135.0.7049.96)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f77b5aa9bf518b29bfdd8d2789f9c6b8, findElement {value=campaignName, using=name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\91830\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61474}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61474/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f77b5aa9bf518b29bfdd8d2789f9c6b8
+Command: [3420b19a8f8782c8ad4f9eee1686e73d, findElement {value=//span[text()='Add Product'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\91830\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61386}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61386/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3420b19a8f8782c8ad4f9eee1686e73d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -59,14 +59,10 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
-at ObjectRepository.CreateCampaignsPage.createCampaignWithMandatoryFields(CreateCampaignsPage.java:46)
-at CampaignTest.CreateCampaignTest.createCampaignTest(CreateCampaignTest.java:122)
+at ProductTest.CreateProductTest.addProductTest(CreateProductTest.java:105)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -100,24 +96,24 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createCampaignTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:CampaignTest.CreateCampaignTest@72e5a8e]" started-at="2025-04-15T22:38:59 IST" name="afterMethod" finished-at="2025-04-15T22:38:59 IST" duration-ms="52" status="PASS">
+        </test-method> <!-- addProductTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ProductTest.CreateProductTest@2d710f1a]" started-at="2025-04-21T19:21:38 IST" name="afterMethod" finished-at="2025-04-21T19:21:38 IST" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:CampaignTest.CreateCampaignTest@72e5a8e]" started-at="2025-04-15T22:38:59 IST" name="afterClass" finished-at="2025-04-15T22:38:59 IST" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:ProductTest.CreateProductTest@2d710f1a]" started-at="2025-04-21T19:21:38 IST" name="afterClass" finished-at="2025-04-21T19:21:38 IST" duration-ms="286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:CampaignTest.CreateCampaignTest@72e5a8e]" started-at="2025-04-15T22:38:59 IST" name="afterTest" finished-at="2025-04-15T22:38:59 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:ProductTest.CreateProductTest@2d710f1a]" started-at="2025-04-21T19:21:38 IST" name="afterTest" finished-at="2025-04-21T19:21:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:CampaignTest.CreateCampaignTest@72e5a8e]" started-at="2025-04-15T22:38:59 IST" name="afterSuite" finished-at="2025-04-15T22:38:59 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:ProductTest.CreateProductTest@2d710f1a]" started-at="2025-04-21T19:21:38 IST" name="afterSuite" finished-at="2025-04-21T19:21:38 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- CampaignTest.CreateCampaignTest -->
+      </class> <!-- ProductTest.CreateProductTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
